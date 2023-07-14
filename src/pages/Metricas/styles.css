@@ -1,0 +1,84 @@
+.metricas {
+    background-color: #00D2D2;
+    color: #ffff;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.metricas .wrapper{
+    width:100vw;
+    max-width:100rem;
+    max-height:80vh;
+    margin-top:2rem;
+}
+div .row{
+    display: flex;
+    align-items:center;
+    justify-content: center;    
+}
+
+.row{
+    display: flex;
+    width:100vw;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+}
+.select-demandas {
+    background-color: white;
+    color: #1F304A;
+}
+
+.metricas h2 {
+    font-size: 2.5rem;
+    margin-top:5rem;
+}
+.metricas .line{
+    width:40vw;
+    max-width:50rem;
+    height:.3rem;
+    background-color:white;
+    border-radius: 3rem;
+    margin-top:5rem;
+    margin-left:2rem;
+}
+.metricas-img {
+    display: flex;
+    
+}
+
+.metricas-img img {
+    width: 20rem;
+    height: 20rem;
+    padding: 3rem;
+}
+
+.metricas--box {
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    max-width: 100vw;
+    height: 100%;
+}
+
+.select-demandas {
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffff;
+    color: #1F304A;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top:5rem;
+}
+
+
+.wrapper-chart{
+    width: 93%;
+    height: 99%;
+    object-fit: cover;
+
+}

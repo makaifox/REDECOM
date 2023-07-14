@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+  .chat-footer{
+    margin-left: -4rem;
+    align-items: normal;
+  }
+}

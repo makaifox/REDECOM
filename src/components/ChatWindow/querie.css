@@ -1,0 +1,10 @@
+@media(max-width: 900px){
+  
+.user-info-wrp{
+    display: none;
+}
+
+.footer-wrp{
+  justify-content: normal;
+}
+}

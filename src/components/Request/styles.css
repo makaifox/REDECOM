@@ -1,0 +1,242 @@
+.Request{
+    display:flex;
+    font-size:2.5rem;
+    justify-content:space-around;
+}
+.request-topic{
+    max-width:20rem;
+    width:20rem;
+    max-height:1rem;
+    overflow:hidden;
+    padding:1rem;
+    text-align:center;
+    transition:.5s;
+}
+.request-topic button{
+    all: unset;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.request-topic button:hover{
+    color:#AD9153;
+}
+/* botao alterar cadastro */
+.request-button{
+    all:unset;
+    display: flex;
+    cursor:pointer;
+    max-height: 1rem;
+    background-color:#E2E2E2;
+    border-radius: 2rem;
+    color:#fff;
+    padding:.5rem;
+    transition: .5s;
+    text-align:center;
+    align-items:center;
+}
+.request-button button:hover{
+    background-color:#AD9153;
+}
+.request-details{
+    all:unset;
+    cursor:pointer;
+}
+.request-details:hover{
+    color:#AD9153;
+    transition: .3s ease;
+
+}
+/*  modal da demanda*/
+.modal-wrapper{
+    display:none;
+    width: 100vw;
+    height:100vh;
+    position:fixed;
+    background: rgba(0,0,0,0.6);
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    transition: .5s ease;
+    z-index: 999;
+}
+.request-modal{
+    max-width:100rem;
+    min-width: 80rem;
+    height:90vh;
+   display: grid;
+    border-radius: 2rem;
+    background: #fff;
+    box-shadow:0 .1rem 5rem rgba(0.0.0.8);
+    grid-template-rows: 10vh 40vh;
+    grid-template-areas: 'modalH''modalM';
+    overflow: hidden;
+    margin:2rem auto;
+}
+
+.m-header{
+    grid-area:modalH;
+    display:flex;
+    justify-content: space-between;
+    font-size:5rem;
+    padding:1rem 5rem;
+    font-weight: bold;
+    background:#223450;
+    align-items: center;
+
+}
+.m-header button{
+    all:unset;
+    display: flex;
+    width: 3rem;
+    max-height: 3rem;
+    border-radius: 5rem;
+    color:#AD9153;
+    font-weight: bold;
+    font-size: 2rem;
+    background:#fff;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.m-header div{
+    color: #fff;
+}
+.m-main{
+    padding: 1rem;
+}
+.m-main form{
+    display: flex;
+    font-size: 2.5rem;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+}
+.m-main input, select{
+    width: 30rem;
+    border: .2rem solid #223450;
+    padding:0 1rem 0 1rem;
+    border-radius: 2rem;
+    margin:.5rem;
+    overflow: hidden;
+}
+
+.m-main label{
+    min-width: 30rem;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: center;
+}
+.modal-row{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    font-size: 1.5rem;
+    min-width: 40rem;
+    align-items: center;
+}
+.modal-button{
+    max-width: 25rem;
+    background: #223450;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10rem;
+    transition: .5s ease;
+}
+.modal-button:hover{
+    background: #AD9153;
+    border-color: #AD9153;
+}
+.modal-button:last-child{
+    background: #e1e1e1;
+    color: #ffff;
+    border: none;
+}
+.modal-button:last-child:hover{
+    color: red;
+}
+
+
+.modal-data{
+    display:flex;
+    width:80rem;
+    max-height: 75vh;
+    flex-direction:column;
+    text-align:left;
+    padding:2rem;
+    overflow-y: auto;
+}
+.modal-data p{
+    min-width:50rem;
+    border: .2rem solid #223450;
+    border-radius:1rem;
+}
+
+/* Modal marca como concluida */
+.modal-progresso{
+    display:none;
+    width: 100vw;
+    height:100vh;
+    position:fixed;
+    background: rgba(0,0,0,0.6);
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    transition: .5s ease;
+}
+
+.prog-modal{
+    max-width:56rem;
+    min-width: 56rem;
+    max-height:17vh;
+   display: grid;
+    border-radius: 2rem;
+    background: #fff;
+    box-shadow:0 .1rem 5rem rgba(0.0.0.8);
+    grid-template-rows: 10vh 40vh;
+    grid-template-areas: 'modalH''modalM';
+    overflow: hidden;
+    margin:auto;
+    padding:3rem;
+}
+.prog-modal h2{
+    font-size:3rem;
+
+}
+.prog-modal .buttons {
+    display:flex;
+    justify-content:center;
+}
+.prog-modal p{
+    color:red;
+    margin-top:-1rem;
+    font-size: 1rem;
+}
+.prog-modal .buttons button{
+    all:unset;
+    display: flex;
+    width: 15rem;
+    max-height: 4rem;
+    height:4rem;
+    border-radius: 5rem;
+    color:#ffff;
+    font-weight: bold;
+    font-size: 2rem;
+    background:#223450;
+    cursor: pointer;
+    justify-content: center;
+    margin: 1rem 2rem;
+    align-items:center;
+    transition: .5s ease;
+}
+.prog-modal .buttons button:last-child{
+    background: #e1e1e1;
+    border: none;
+}
+.prog-modal .buttons button:hover{
+    background: #AD9153;
+}

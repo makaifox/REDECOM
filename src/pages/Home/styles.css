@@ -1,0 +1,169 @@
+:root{
+    --fonte-primaria: "Poppins", sans-serif;
+    --azul-claro: #38B6FF;
+    --azul-escuro: #1F304A;
+    --branco: #FFf;
+}
+/* ================================================================= */
+
+.background-white{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 180rem;
+    background-color:#F2F2F2;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+}
+
+.rounded-main{
+
+    position: relative;
+    width: 85%;
+    height: 91%;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1% 1% 1%  1%;
+    box-shadow: 0 7px 7px 2px rgb(0 0 0 / 14%), 0 6px 10px 5px rgb(0 0 0 / 12%), 0 8px 7px -5px rgb(0 0 0 / 20%);
+    margin-bottom: 2rem;
+}
+
+.rounded-main h2{
+    font-size: 7rem;
+}
+
+#sobre-o-redecom{
+    display: flex;
+    flex-direction: column;
+    color: var(--azul-escuro);
+}
+
+#sobre-o-redecom h2{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#sobre-o-redecom h1{
+    font-size: 7rem;
+}
+
+
+.Oque{
+    color: var(--azul-escuro);
+    display: flex;
+    margin-top: 4rem;
+}
+
+
+
+.img-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    align-items:center;
+    justify-content: center;
+}
+
+.img-title-wrapper img{
+    width: auto;
+    height: 50%;
+    transition: all ease-in-out 0.5s;
+    object-fit:contain;
+
+    max-height: 60%;
+    
+}
+
+
+.text-oque{
+    width: 50%;
+    align-items:center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    bottom: -8rem;
+}
+
+.text-oque p{
+    font-size:1.8rem;
+    margin-top: 6rem;
+}
+
+.Como {
+    width:100%;
+    height: 32%;
+    background-color: var(--azul-escuro);
+    margin-top: -17rem;
+    display: flex;
+}
+
+.text-como{
+    width: 50%;
+    align-items:center;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    bottom: -8rem;
+    margin-top:4rem;
+}
+
+
+.text-como p{
+    font-size:1.8rem;
+    color: var(--branco);
+    margin-top: 14rem;
+    margin-left: 5rem;
+    max-width: 70%;
+    justify-content: right;
+    align-items: right;
+}
+
+#como-funciona{
+    color:var(--branco)
+}
+
+#img-como-funciona{
+    position: relative;
+    bottom: -10rem;
+    transition: 0.7s;
+}
+
+.Porque{
+    width: 95%;
+    display: flex;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.Porque h2{
+    color: var(--azul-escuro);
+}
+
+.text-porque{
+    width: 40%;
+    margin-top: 10rem;
+}
+
+.Porque img{
+    width: auto;
+    height: 25rem;
+    transition: all ease-in-out 0.5s;
+    object-fit:contain;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    max-height: 60%;
+
+}
+
+
+
+.Porque p{
+    font-size:1.8rem;
+    color: var(--azul-escuro);
+    overflow: hidden;
+}

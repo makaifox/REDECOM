@@ -1,0 +1,28 @@
+@media(max-width: 680px){
+  .wrapper-row{
+    margin-top: 15rem;
+  }
+
+  .metricas-img{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    object-fit: cover;
+  }
+
+  .icon-wrapper{
+    object-fit: contain;
+  
+    display: flex; 
+    justify-content: center;
+  }
+
+  .icon-wrapper img{
+    object-fit: contain;
+    
+  }
+  
+}

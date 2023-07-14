@@ -1,0 +1,23 @@
+.alt-wrapper{
+    width: 100vw;
+    height:100vh;
+    position:fixed;
+    background: rgba(0,0,0,0.6);
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    transition: .5s ease;
+    z-index:999;
+}
+
+.wrapper-btn-trocar-foto{
+    display: flex;
+    left: 0.5rem;
+}
+
+#trocar-foto{
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    max-height: 53vh;
+    max-width: 110rem;
+    display: flex;
+    flex-direction: column;
+    padding:5rem;
+    align-items: start;
+    overflow-y: scroll;
+}
+.main h2{
+    font-size:2rem;
+}
+.wrp{
+    align-self: center;
+}
+.text{
+    margin:2rem;
+    text-align: left;
+}
+.main .text h2{
+    font-size:1.5rem;
+    margin:0;
+    padding:0;
+}
+.borderTop{
+    border-top:.1rem solid #223450;
+    width:90rem;
+    margin-bottom: 1rem;
+}
+.main .text p{
+    font-size:1.5rem;
+    margin:0;
+    padding:0;
+}
+.btn-download{
+    background-color: #223450;
+    border:none;
+    width:50rem;
+    padding:1rem;
+    color:#fff;
+    border-radius:2rem;
+    align-self:center;
+}
+
+@media (max-width:780px) {
+  
+    .wrapper-assunto{
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
+    }
+  
+  }

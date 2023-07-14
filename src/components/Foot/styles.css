@@ -1,0 +1,41 @@
+footer{
+  background-color: #223450;
+  text-align: center;
+  color: white;
+  width: 100% !important;
+  height: 6rem;
+  position: relative;
+  bottom: 0 !important;
+}
+
+.footer-wrapper{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #223450;  
+}
+
+
+h5{
+font-size: 1.5rem;
+background-color: #223450;
+padding-top:0.3rem;
+font-weight: 200;
+}
+
+h6{
+  font-size: 1.3rem;
+  background-color: #223450;
+  font-weight: 300;
+  padding-top: 0.3rem;
+}
+
+i{
+  display: inline-block;
+  font-size: 1.3rem;
+  background-color: #223450;
+  width: 100%;
+  padding-top: 0.3rem;
+  padding-bottom:1rem;
+}

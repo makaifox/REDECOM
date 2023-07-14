@@ -1,0 +1,239 @@
+
+  /* Cadastro */
+  .wrp-radio{
+    margin-top:3rem;
+  }
+  
+  .wrp-radio label{
+    
+    display: flex;
+    position: relative;
+  }
+
+  label{
+    margin-left:2rem;
+  }
+  
+  /* Titulos do formulario */
+  .wrp-title{
+    height:5vh;
+    max-height: 5vh;
+    display:flex;
+    margin-left:-4.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .wrapper{
+      margin-top: 5rem;
+      max-width:100rem;
+  }
+  
+  .wrapper h1{
+    font-size: 2.2rem;
+    color:#21324E;
+  }
+
+    /* circulo ao lado do titulo */
+  .title-circle{
+    width:2rem;
+    height:2rem;
+    display:flex;
+    font-size: 3rem;
+    border:0.3rem solid #21324E;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items:center;
+    margin-right:2rem;
+    background-color:#EEE;
+    
+  }
+
+  .title-circle-color {
+    width:1.5rem;
+    height:1.5rem;
+    background: #21324E;
+    border-radius: 3rem;
+  }
+   
+  span, label{
+    font-size:1.7rem;
+    color:#21324E;
+    font-weight:bold;
+  }
+
+  #cpf, #matricula{
+    cursor:pointer;
+  }
+
+  /*  Input Selector text-area */
+  .text-input, .data-input, .endereco-input {
+    padding:1rem;
+    padding-left:2rem;
+    margin:0.5rem;
+    font-size:1.5rem;
+    margin-left:0;
+    background-color:#fff;
+    border-radius:5rem;
+    color:#555;
+  }
+  
+  .text-input {
+    width:70vw;
+    max-width: 90rem;
+  }
+
+  .data-input {
+    width:15rem;
+    max-width: 15rem;
+  }
+
+  .endereco-input {
+    width:60rem;
+    max-width: 60rem;
+  }
+
+  input,select{
+    all:unset;
+    height:4rem;
+  }
+
+  select option {
+    font-size:1.5rem;
+  }
+
+  input::placeholder {
+    color:#21324E;
+    font-weight:450;
+  }
+  
+  input[type="file"] {
+    display:none;
+  }
+
+  .label-foto {
+    border-radius: 2rem;
+    background-color: transparent;
+    margin: 0 2rem;
+    padding:1.1rem;
+    color: #21324E;
+    cursor: pointer;
+    border: 2px solid #21324E;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    transition: .5s;
+    margin-top:1rem;
+  }
+
+  .label-foto:hover{
+    border-radius: 2rem;
+    background-color:#21324E;
+    color: white;
+    font-weight: 300;
+    border: 2px solid transparent;
+  }
+  
+  .wrapper-btn-foto::after{
+    content: "*Obrigatório";
+    color: #4c3d1d;
+    font-family: monospace;
+    font-size: 1.3rem;
+    font-weight:600;
+  }
+  .wrapper-label{
+    display: flex;
+    margin: auto;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .wrapper-label label span{
+    display: flex;
+    margin: auto;
+  }
+
+  .wrapper-label::before{
+    content: "*Selecione apenas uma opção";
+    display: flex;
+    flex-direction: row;
+    color: #4c3d1d;
+    text-align:center;
+    justify-content: center;
+    font-size: 1rem;
+    position: absolute;
+    font-weight: 600;
+  }
+
+  #wrapper-foto{
+    display:flex;
+    
+  }
+
+  .nc-container {
+    line-height:3rem;
+  }
+  
+  .form-textarea {
+    border:none;
+    border-radius:2rem;
+    resize:none;
+  }
+
+  .form-textarea:focus, input[type='text']:focus , select:focus {
+    outline:#21324E solid 0.2rem;
+  }
+
+  .user-avatar{
+    border-radius: 3rem;
+    object-fit: cover;
+  }
+
+   input[type="radio"] {
+    appearance:none;
+    
+     border: 2px solid #21324E;
+     border-radius:50%;
+    
+     width: 8px;
+     height: 20px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+   input[type="radio"]:before{
+     content: " ";
+     position: absolute;
+     height: 10px;
+     width: 8px;
+     transform: rotate(45deg);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+     border-right: 3px solid #21324E;
+     border-bottom: 3px solid #21324E;
+     background-color: transparent;
+    opacity: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+     
+   }
+
+   input[type="radio"]:checked:before{
+     opacity: 1;
+     
+   }
+
+   input[type="radio"]:checked{
+     background-color: transparent;
+   }
+
+   #btn-cadastro{
+     transition: all 0.2s ease-in-out;
+   }
+
+   #btn-cadastro:hover{
+      padding: 0.2rem;
+      background-color:#09162c;
+   }

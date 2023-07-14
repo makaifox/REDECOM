@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+  .modal-entry{
+    height: 36vh;
+    width: 70vw;
+  }
+}

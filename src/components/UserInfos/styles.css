@@ -1,0 +1,58 @@
+.UserInfos-wrp{
+  position: relative;
+  justify-content: right;
+  align-items: right;
+  width: 100%;
+  min-width: 30rem;
+}
+
+.chatListItem{
+  height: 100vh;
+  position: relative;
+  right: 1rem;
+}
+
+.chat-avatar {
+  width: 5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  align-self: center;
+}
+
+.chatListItem-lines{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding-left:3vw;
+}
+
+.chatListItem-line{
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  height: 2rem;
+  margin-top: 3.5rem;
+  justify-content: left;
+  border-bottom: 1.8px solid rgba(194, 211, 214, 0.891);
+}
+.chatListItem-text{
+  min-width:25rem;
+  height: 4.5rem;
+  align-self: center;
+  text-align: left;
+  margin-bottom: 3rem;
+  padding-left: 1rem;
+}
+.chatListItem-name{
+  font-size: 1.6rem;
+  color: #223450;
+  font-weight: bold;
+}
+
+.chatListItem-function{
+  font-size: 1.2rem;
+  color: rgba(147, 147, 147, 0.945);
+}

@@ -1,0 +1,78 @@
+import "./styles.css";
+import "./querie.css";
+import ProcessoDeProdução from "../../assets/images/processo-producao.svg";
+
+import { Footer } from "../../components/Foot";
+import { TituloPagina } from "../../components/TituloPagina";
+import { Header } from "../../components/Header";
+import { HeaderResponsive } from "../../components/HeaderResponsive";
+
+
+export default function Home() {
+  return (
+    <>
+      {/* TOPO DO SITE */}
+
+      <Header/>
+      <HeaderResponsive />
+      <TituloPagina titulo="Processos de Produção" />
+
+      {/* ÁREA DOS PROCESSOS DE PRODUÇÃO */}
+      <div className="ProcessoProducao">
+        <img
+          src={ProcessoDeProdução}
+          alt="processos-de-produção"
+        />
+      </div>
+
+      {/* SOBRE O REDECOM */}
+      <div className="about-redecom">
+        <div className="redecom-wrapper">
+          <h2>Sobre o REDECOM</h2>
+          <h4>1. O que é?</h4>
+          <div className="txt">
+            <p>
+              O REDECOM (Requerimento de Demandas da Comunicação) é um sistema
+              piloto (MVP - Versão Alfa 1.5 - 13092019) lançado em Setembro de
+              2019, que tem por objetivo automatizar o pedido de demandas que
+              são solicitados para a Coordenadoria de Comunicação (CCS), pelas
+              pastas que compõe a administração pública da Cidade de Mesquita.
+            </p>
+          </div>
+          
+          <h4>2. Como funciona?</h4>
+          <div className="txt">
+
+            <p>
+              Em um processo simples, rápido e prático, com o preenchimento de
+              um pequeno formulário de apenas 07 etapas, tanto os solicitantes
+              quanto a Coordenadoria em questão, vão formalizar os pedidos e
+              também entrar em uma sincronia de diálogo mediante a troca de
+              e-mails futuros.
+            </p>
+            
+          </div>
+
+          <h4>3. Por que utilizar?</h4>
+
+          <div className="txt">
+            <p>
+              Com o uso da ferramenta, será possível elaborar métricas, como a
+              quantidade de requerimentos solicitados por cada pasta mensalmente
+              e anualmente, e entender informações quantitativas, qualitativas e
+              objetivas dos tipos de trabalhos executados pela equipe
+              responsável. Aos servidores da Prefeitura Municipal de Mesquita
+              (PMM), é primordial que seja utilizado o REDECOM, pois com isso,
+              será possível favorecer melhorias e análises no fluxo de demandas
+              entre a Coordenadoria de Comunicação Social (CCS) e as pastas que
+              administram a instituição.
+            </p>
+          </div>
+        </div>
+      </div>
+      <Footer/>
+    </>
+    
+    
+  );
+}

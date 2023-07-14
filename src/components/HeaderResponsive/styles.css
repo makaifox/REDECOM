@@ -1,0 +1,107 @@
+/*vv Menu Botão vv*/
+.hamburguer{
+  width: 3rem;
+  height: 3rem;
+  right: 2rem;
+  cursor: pointer;
+  }
+
+
+  .mobile-menu{
+  position:absolute;
+  right: 2rem;
+  cursor:pointer;
+  display: block;
+  z-index: 9;
+
+  overflow: hidden;
+  }
+
+  .mobile-menu-lines{
+    overflow: hidden;
+    display: flex;
+  }
+
+  .close-menu div{
+    background: white;
+    width: 4rem;
+    height: 2rem;
+    
+    z-index: 9;
+    align-items: center;
+    z-index: 20;
+    cursor: pointer;
+
+    overflow: hidden;
+  }
+
+
+  .lines{
+    margin: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color:white;
+  }
+  
+  /* ^^ Menu Botão ^^ */
+  
+  .header-responsive {
+  
+  max-width:100vw;
+  height:15rem;
+  display:flex;
+  
+  background-color: #223450;
+  overflow: hidden;
+  align-items: center;
+
+  justify-content: center;
+  }
+
+  .header-top-responsive{
+  display:flex;
+  width:100vw;
+  height:15rem;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .wrapper-logo{
+  display: flex;
+  width: 40vw;
+  height: 30vh;
+  margin-left: 28%;
+  z-index: 6;
+  }
+  
+  .logo-redecom-responsive{
+  width: 100%;
+  height: 100%;
+  
+  align-items: right;
+  justify-content: right;
+  }
+  /* menu do usuario*/
+
+  .user-menu-responsive .user-name-responsive{
+  max-width:10rem;
+
+  color:#fff;
+  font-size:2rem;
+  font-weight:300;
+  font-family: 'Poppins';
+  overflow:hidden;
+  margin-left:-4rem;
+  }
+  
+  .user-avatar-responsive{
+  width:5rem;
+  height:5rem;
+  margin-top:-4rem;
+  }
+  
+  @media (min-width:900px) {
+  .header-responsive{
+  display:none;
+  }
+}

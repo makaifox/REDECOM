@@ -1,0 +1,264 @@
+/*vv Menu Botão vv*/
+.menu-responsive{
+  display:flex;
+}
+.hamburguer{
+  
+  width: 2rem;
+  height: 2.2rem;
+  position: absolute;
+  z-index: 500;
+  right: 2rem;
+  top: 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all ease 0.3s;
+
+}
+
+.line{
+  border-radius: 10px;
+  width: 100%;
+  height: 0.4rem;
+  background-color: #fff;
+
+  box-shadow: 0.1rem 0.1rem 1px rgb(114, 112, 112);
+}
+
+
+          /* vv Botao de fechar menu vv */
+
+#line-close1{
+  transform: rotate(52deg);
+  width: 100%;
+  height: 2px;
+  border-radius: 40px;
+
+  box-shadow: none;
+  transition: all ease 0.3;
+  margin-top: 5px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#line-close2{
+  transition: all ease 0.3;
+  width: 100%;
+  height: 2px;
+  border-radius: 40px;
+  
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 2rem;
+  box-shadow: none;
+  transform: rotate(130deg);
+  margin-bottom: 5px;
+}
+
+.mobile-menu-close{
+  cursor: pointer;
+  transition:all ease 0.3 ;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  
+  overflow: hidden;
+  height:4rem;
+  width: 4rem;
+
+  align-items: center;
+  justify-content: center;
+  top: 6rem;
+  left:2%;
+}
+
+
+          /* ^^ Botao de fechar menu ^^ */
+
+          
+    /* ^^ Menu Botão ^^ */
+    .menu-responsive.show-menu{
+      right: 0;
+    }
+  
+    .header-top-responsive{
+    display:flex;
+    width:100vw;
+    height:15rem;
+    
+    justify-content: center;
+    align-items: center;
+    }
+    .wrapper-logo{
+    display: flex;
+    width: 60vw;
+    max-width: 30rem;
+    height: 30vh;
+    margin-left: 10px;
+    z-index: 6;
+    }
+    
+    .logo-redecom-responsive{
+    width: 100%;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    }
+    .menu-responsive{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+    top: 0.01vh;
+    width: 0%;
+    right: 0;
+    background-color: #223450;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    
+    transition: all ease 0.3s;
+    }
+
+    .menu-responsive {
+      position:fixed;
+      display: flex;
+      flex-direction: column;
+      z-index: 9;
+      top: 0vh;
+      
+      right: 0;
+      background-color: #223450;
+      height: 100%;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      
+      transition: all ease 0.3s ;
+      }
+    
+    .menu-responsive a{
+    display:flex;
+   margin: 0;
+   padding:2rem;
+   text-align: center;
+    justify-content: center;
+    align-items: right;
+    color: #ffff;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: all 0.5s;
+    
+    }
+    .menu-responsive a:hover{
+      background-color: rgb(72, 118, 159);
+      }
+    
+    /* menu do usuario*/
+    .user-menu-responsive{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    max-width:20rem;
+    width:20vw;
+    height:6rem;
+    right:1vw;
+    justify-content: space-around;
+    overflow:hidden;
+    align-items: center;
+    text-align: center;
+    }
+  
+    .user-menu-responsive .user-name-responsive{
+    max-width:10rem;
+    color:#fff;
+    font-size:2rem;
+    font-weight:300;
+    font-family: 'Poppins';
+    overflow:hidden;
+    
+    margin-left:-4rem;
+    }
+
+
+    .user-avatar-responsive{
+    width:5rem;
+    height:5rem;
+    margin-top:-4rem;
+
+    position: absolute;
+    }
+
+    .transition-wrapper {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      text-align: left;
+      
+    }
+    .transition-wrapper a{
+      text-decoration: none;
+      color:#fff;
+      width: 100%;
+      padding:3rem;
+      transition: .5s ease;
+      margin:0;
+    }
+    .transition-wrapper :hover{
+      background:rgb(72,118,159)!important;
+    }
+    .user-name{
+      color:#fff;
+      font-size:2rem;
+      margin:2rem;
+    }
+    .btn-sair{
+      all:unset;
+      width:80vw;
+      color:#fff;
+      padding:1rem;
+      font-size:1.4rem;
+      background:red;
+      border-radius:2rem;
+      margin:1rem;
+      transition: .5s ease;
+      text-align: center;
+    }
+    .btn-sair:hover{
+      color:rgb(165, 32, 32);
+      background:#fff;
+    }
+    
+    @media (min-width: 900px) {
+    .menu-responsive{
+    display:none;
+    }
+  }
+
+  .user-menu-responsive {
+    position:absolute;
+    display: flex;
+
+    max-width:20rem;
+    width:20vw;
+    height:6rem;
+    right:40%;
+    top: 5vh;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+  }
+ 

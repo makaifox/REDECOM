@@ -1,0 +1,57 @@
+
+.ProcessoProducao {
+    height: 15rem;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.ProcessoProducao img {
+    max-width:75vw;
+    width: 75vw;
+    height: 15vh;
+    margin-bottom: 0.20rem;
+}
+
+.about-redecom {
+    background-color: var(--azul-claro);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem;
+}
+
+.about-redecom h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about-redecom h4 {
+    font-size: 1.7rem;
+    padding: 1.5rem;
+}
+
+.redecom-wrapper {
+    width:50vw;
+    max-width:100rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt {
+    background-color: #ffff;
+    color: #1F304A;
+    border-radius: 1.2rem;
+    max-width: 70vw;
+    font-size: 2rem;
+}
+
+p {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,326 @@
+/* Padrões da pagina */
+*{
+    font-size:62.5%;
+}
+
+  .container h2{
+    font-size: 2rem;
+  }
+
+.interface{
+    margin:0;
+    max-width:100vw;
+  }
+
+  .flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .bold{
+    all:unset;
+    font-weight: bold;
+  }
+  
+  .container{
+    flex-direction:column;
+    background-color:#F2F2F2;
+  }
+
+  .container p{
+    font-size:1.7rem;
+    color:#21324E;
+    font-weight: 500;
+  }
+  
+  .processo{
+    width:100vw;
+    height:20vh;
+    padding:6rem 0;
+    overflow:hidden;
+  }
+
+  .processo img{
+    width:50vw;
+  }
+  
+  
+  /* Seção Formulario de Requerimento */
+  .wrp-radio{
+    margin-top:3rem;
+  }
+  
+  .wrp-radio label{
+    margin:2rem;
+    margin-left:-1rem;
+  }
+
+  label{
+    margin-left:2rem;
+  }
+  
+  
+  /*  Notificação */
+  .notificacao{
+    display:flex;
+    width: 100vh;
+    max-width:100rem;
+    padding:1rem;
+    border:0.3rem solid #21324E;
+    border-radius:2rem 2rem 2rem 0;
+    margin:5rem;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background:#fff;
+    flex-direction:row;
+    flex-wrap: nowrap;
+  }
+  
+  .tutorial{
+    margin: 2rem;
+  }
+
+  .notificacao p{
+    font-size:1.6rem;
+    font-weight: 450;
+    padding:1rem;
+  }
+.notificacao h2{
+  font-size:2rem;
+  margin:-1rem 8rem -1rem 0rem;
+}
+  .not-exclamacao{
+    
+    width:7%;
+  }
+
+  .not-text{
+    width:90rem;
+    height:13rem;
+    justify-content:center;
+    align-items: center;
+  }
+.tutorial .not-text p{
+  text-align: left;
+}
+ 
+  
+  /* Titulos do formulario */
+  .wrp-title{
+    height:5vh;
+    max-height: 5vh;
+    display:flex;
+    margin-left:-4.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .wrapper h1{
+    font-size: 2.2rem;
+    color:#21324E;
+  }
+
+    /* circulo ao lado do titulo */
+  .title-circle{
+    width:2rem;
+    height:2rem;
+    display:flex;
+    font-size: 3rem;
+    border:0.3rem solid #21324E;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items:center;
+    margin-right:2rem;
+    background-color:#EEE;
+  }
+
+  .title-circle-color{
+    width:1.5rem;
+    height:1.5rem;
+    background: #21324E;
+    border-radius: 3rem;
+  }
+  
+  
+  span, label{
+    font-size:1.7rem;
+    color:#21324E;
+    font-weight:bold;
+  }
+  
+  /*  Input Selector text-area */
+  .text-input, .data-input, .endereco-input{
+    padding:1rem;
+    padding-left:2rem;
+    margin:2rem;
+    font-size:1.5rem;
+    margin-left:0;
+    background-color:#fff;
+    border-radius:5rem;
+    color:#555;
+  }
+  
+  .text-input{
+    width:70vw;
+    max-width: 75vw;
+  }
+  .data-input{
+    width:15rem;
+    max-width: 15rem;
+  
+  }
+  .endereco-input{
+    width:60rem;
+    max-width: 60rem;
+  }
+
+  input,select{
+    all:unset;
+    height:4rem;
+  }
+
+  select option{
+    font-size:1.5rem;
+  }
+
+  input[type="radio"] {
+    font-size: 1.1rem;
+    border:0.3rem solid #21324E;
+    padding:0 0.5rem 0 1rem;
+    border-radius: 3rem;
+    margin:2rem;
+    margin-left:1.5rem;
+  }
+
+  input[type="checkbox"]{
+    font-size: 1.1rem;
+    border:0.3rem solid #21324E;
+    padding:0 0.5rem 0 1rem;
+    border-radius: 3rem;
+    margin:2rem;
+    margin-left:1.5rem;
+  }
+
+  input[type="radio"]:checked{
+    background-color:#21324E;
+  }
+
+  input[type="checkbox"]:checked{
+    background-color:#21324E;
+  }
+
+  input::placeholder{
+    color:#21324E;
+    font-weight:450;
+  }
+  
+  input[type="file"]{
+    display:none;
+  }
+
+  .label-anexo{
+    display: flex;
+    border-radius: 7rem;
+    background-color: #ae9153;
+    margin: 0 2rem;
+    padding:0.4rem;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    width: 15rem;
+    height: 3rem;
+    cursor: pointer;
+
+    transition: all ease 0.2s;
+  }
+
+  .label-anexo:hover{
+    background-color: #c79934
+  }
+  
+  .nc-container{
+    line-height:3rem;
+  }
+  
+  .form-textarea{
+    border:none;
+    border-radius:2rem;
+    resize:none;
+  }
+
+  .form-textarea:focus, input[type='text']:focus , select:focus{
+    outline:#21324E solid 0.2rem;
+  }
+  
+  
+  /* Container metodologia */
+  .wrp-text{
+    width:68vw;
+    border-radius:2rem;
+    padding:3rem;
+  }
+  
+  .wrp-text p{
+    font-size:1.4rem;
+    margin-bottom:2rem;
+  }
+  
+  .wrp-text div{
+    text-align:center;
+  }
+  
+  /* borda lateral container */
+  .wrp-container{
+    width:75vw;
+    max-width:100rem;
+    padding:0 3rem;
+  }
+  
+  .left-border{
+    padding:0 3rem;
+    border-left:12em solid #21324E;
+    margin-bottom:-1rem;
+    padding-bottom:5rem;
+  }
+  .login-wrp{
+    background: url(../../assets/images/background-login.svg);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    color:#fff;
+    font-size:2rem;
+    flex-direction: column;
+  }
+  .login-wrp h2{
+    font-size:3rem;
+  }
+  .login-wrp button{
+    all:unset;  
+    padding:1rem;
+    cursor:pointer;
+    transition:1s ease;
+    color:#fff;
+  }
+  .login-wrp button:hover{
+    border-bottom:.2rem solid #21324E;
+    color:#21324E;
+  }
+
+  .wrapper-radius-personalidades{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem;
+  }
+
+  .wrapper-box-personas{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }

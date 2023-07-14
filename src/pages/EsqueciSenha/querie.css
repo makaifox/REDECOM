@@ -1,0 +1,39 @@
+@media(max-width: 900px){
+    .redecom--logo img{
+        width:25rem;
+        height:20rem;
+    }
+    .area{
+        width:80vw;
+        max-width:35rem;
+    }
+    input::-webkit-input-placeholde{
+        font-size:1rem;
+    }
+    .dados{
+        font-size:1rem;
+    }
+    .dados input{
+        width:75vw;
+        max-width:28rem;
+        height:3rem;
+        font-size:1.5rem;
+        border-radius: 3rem;
+    }
+    .Enviarbtn{
+        width:80vw;
+        max-width:28rem;
+        font-size:1rem;
+    }
+    .Enviarbtn button{
+        width:10rem;
+        height:4rem;
+    }
+    .bottomm a{
+        font-size:1.2rem;
+    }
+    
+    input[type="email"]{
+        padding: 0.7rem;
+    }
+}

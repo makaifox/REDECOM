@@ -1,0 +1,217 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  
+  overflow:hidden;
+
+  position:absolute;
+}
+
+.wrapper-img-background{
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow:hidden;
+  z-index: 5;
+  display:flex;
+  }
+
+  .background-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  position: absolute;
+  z-index: 1;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    animation: zoom 4s;
+  }
+
+  .infos-login{
+    height: 100vh;
+  width: 100vw;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    animation: moveArea 1.3s forwards;
+    opacity: 0;
+  }
+
+  
+
+
+.login-area {
+  background-color: #faf5f5;
+  width: 40rem;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.bottomm {
+  justify-content:center;
+}
+
+.links-wrapper{
+  display: flex;
+  margin-bottom: 2rem;
+  top: 0;
+
+
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomm a {
+  color: #faf5f5;
+  padding: 5rem;
+  font-size: 1.7rem;
+}
+
+.login-InputEmail svg,
+.login-InputPassword svg {
+  color: #7a7a7a;
+  font-size: 2.8rem;
+  margin-right: 0.7rem;
+}
+
+.login-InputEmail input, .login-InputPassword input  {
+  width: 35rem;
+  height: 4rem;
+  border-radius: 1rem;
+  border: 0;
+  background-color: #1f304a;
+  color: #ffff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  padding:1rem;
+}
+
+.login-InputEmail input::placeholder, .login-InputPassword input::placeholder {
+  all:unset;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding: 1rem;
+  color: #7a7a7a;
+  text-align: left;
+  outline:0;
+}
+
+input:focus{
+  outline:none;
+  text-align: left;
+}
+
+.acessbtn {
+  display:flex;
+  width:38rem;
+  padding:0 1rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.login-dados h3 {
+  font-size: 1.7rem;
+  text-align: left;
+  font-weight: 900;
+  font-style: normal;
+  padding: 1rem;
+}
+
+.acessbtn button {
+    all:unset;
+    width: 15rem;
+    height: 5rem;
+    background: #1F304A;
+    border-radius: 1rem;
+    color: #ffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+img {
+  width:40rem;
+  height: 20.7rem;
+  align-items: center;
+  margin-bottom: -3.8rem;
+}
+
+.errorMsg{
+  all:unset;
+  color:red;
+  font-size:1.7rem;
+}
+
+.bottomm a{
+  transition: 0.7s;
+}
+
+.bottomm a:hover {
+  color: #90a9cc;
+}
+
+#acessar{
+  opacity: 0.88;
+  transition: 0.7s;
+ 
+}
+
+#acessar:hover{
+  opacity: 1;
+  padding: 0.2rem;
+}
+
+#inputLogin{
+  text-align: center;
+}
+
+/* Animação da imagem de fundo */ 
+
+@keyframes zoom {
+  0%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes moveArea{
+  0%{
+    transform: translateY(10rem) rotateY(-10deg);
+  }
+  100%{
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
+}
